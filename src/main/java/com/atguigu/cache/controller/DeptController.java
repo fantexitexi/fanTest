@@ -15,7 +15,7 @@ public class DeptController {
 
     @GetMapping("/dept/{id}")
     public Department getDept(@PathVariable("id") Integer id){
-        System.out.println("gitee test");
+        System.out.println("gitee test111");
         return deptService.getDeptById(id);
     }
 
